@@ -1,0 +1,91 @@
+body {
+    background-color: #1a1a1a;
+    color: #e6d7a3;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .navbar {
+    background-color: #2b2b2b;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #e6d7a3 !important;
+  }
+  
+  .nav-link:hover {
+    color: #d4a017 !important;
+  }
+  
+  .table-dark {
+    color: #e6d7a3;
+    background-color: #2b2b2b;
+  }
+  
+  .table-dark th,
+  .table-dark td {
+    border-color: #4a3c1b;
+  }
+  
+  .table-dark tr:hover {
+    background-color: #3a3a3a;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning {
+    background-color: #d4a017;
+    border-color: #d4a017;
+    color: #1a1a1a;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e6b800;
+    border-color: #e6b800;
+    box-shadow: 0 0 10px #d4a017;
+  }
+  
+  .modal-content.text-bg-dark {
+    background-color: #2b2b2b;
+    border: 1px solid #4a3c1b;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal-header,
+  .modal-footer {
+    border-color: #4a3c1b;
+  }
+  
+  .toast {
+    background-color: #2b2b2b;
+    color: #e6d7a3;
+  }
+  
+  .toast-success .toast-header {
+    background-color: #d4a017;
+    color: #1a1a1a;
+  }
+  
+  .toast-danger .toast-header {
+    background-color: #b88c14;
+    color: #1a1a1a;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  }
